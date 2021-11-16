@@ -1,0 +1,5 @@
+# 6060 : [기초-비트단위논리연산] 비트단위로 AND 하여 출력하기(설명)(py)
+
+n, m = map(int, input().split())
+print(n&m)
+
