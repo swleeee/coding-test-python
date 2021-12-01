@@ -42,6 +42,22 @@
     ※ 힙 : 삽입 O(logN) 삭제 O(logN)
     ※ 스택, 큐 : 삽입 O(1) 삭제 O(1)
 
+###### deque
+
+    - 앞, 뒤 방향에서 element를 추가하거나 제거할 수 있음
+    - push/pop 연산이 빈번한 알고리즘에서 리스트보다 월등한 속도를 자랑
+
+    ```
+        from collections import deque
+
+        deq = deque()
+
+        deq.appendleft(10)
+        deq.append(0)
+        deq.popleft()
+        deq.pop()
+    ```
+
 ## 랭크
 
 - 2021-11-21
@@ -50,3 +66,5 @@
   - 브3 116
 - 2021-11-24
   - 실5 213
+- 2021-12-01
+  - 실5 279
