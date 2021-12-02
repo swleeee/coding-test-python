@@ -19,14 +19,17 @@
   - 6095 (list)
   - 6096 (list)
 
-- 2021.11.17~2021.11.20
+- 2021.11.17 ~
 
   1. This is coding test for employment
 
-  - greedy
+  - greedy(21.11.17 ~ 11.20)
+  - implementation(21.11.21 ~ 12.02)
+  - DFS/BFS(21.12.02 ~ )
 
-- 2021.11.21 ~ 24
+- 2021.11.21
 
   1. Baekjoon
 
-  - greedy
+  - greedy(21.11.21 ~ 11.24)
+  - implementation(21.11.25 ~ 12.02)
