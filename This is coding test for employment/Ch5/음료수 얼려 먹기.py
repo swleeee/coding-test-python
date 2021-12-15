@@ -31,6 +31,7 @@ result = 0
 for i in range(n):
     for j in range(m):
         # 현재 위치에서 DFS 수행
+        
         if dfs(i, j) == True:
             result += 1
 
