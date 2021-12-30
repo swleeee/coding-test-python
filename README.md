@@ -27,7 +27,8 @@
   - implementation(21.11.21 ~ 12.02)
   - DFS/BFS(21.12.02 ~ 12.23 / 21.12.14 ~ 12.23)
   - sort(21.12.24)
-  - binary_search(21.12.25 ~ )
+  - binary_search(21.12.25 ~ 12.29)
+  - Dynamic Programming(21.12.30 ~ )
 
 - 2021.11.21
 
@@ -37,4 +38,4 @@
   - implementation(21.11.25 ~ 12.02)
   - DFS/BFS(21.12.14 ~ 12.23)
   - sort(21.12.24 ~ 12.25)
-  - binary_search(21.12.27 ~ )
+  - binary_search(21.12.27 ~ 12.30)
