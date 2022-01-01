@@ -1,0 +1,79 @@
+import sys
+input = sys.stdin.readline
+
+# t = int(input())
+
+# for _ in range(t):
+#     n, m = map(int, input().split())
+#     d = [-1] * (n*m)
+#     array = list(map(int, input().split()))
+#     length = len(array)
+
+#     for i in range(n):
+#         d[i*m] = array[i*m]
+
+#     # print("AAA : ", d)
+
+#     for i in range(1, m):
+#         for j in range(i, length, m):
+#             if j<m:
+#                 d[j] = max(d[j-1], d[j+m-1]) + array[j]
+#             elif j > (length-m):
+#                 d[j] = max(d[j-1], d[j-m-1]) + array[j]
+#             else:
+#                 d[j] = max(d[j-1], d[j-m-1], d[j+m-1]) + array[j]
+
+#             # print("BBB : ", i, j, d)
+
+#     # print("d : ", d)
+#     print(max(d))
+
+
+
+### 풀이
+# 테스트 케이스 입력
+for tc in range(int(input())):
+    # 금광 정보 입력
+    n, m = map(int, input().split())
+    array = list(map(int, input().split()))
+
+    # 2차원 DP 테이블 초기화
+    dp = []
+    index = 0
+    for i in range(n):
+        dp.append(array[index:index+m])
+        index += m
+
+    # DP 진행
+
+    for j in range(1, m):
+        for i in range(n):
+            # 왼쪽 위에서 오는 경우
+            if i==0:
+                left_up = 0
+            else:
+                left_up = dp[i-1][j-1]
+        
+            # 왼쪽 아래에서 오는 경우
+            if i == n-1:
+                left_down = 0
+            else:
+                left_down = dp[i+1][j-1]
+            
+            # 왼쪽에서 오는 경우
+            left = dp[i][j-1]
+            dp[i][j] = dp[i][j] + max(left_up, left_down, left)
+
+        result = 0
+        for i in range(n):
+            result = max(result, dp[i][m-1])
+
+        print(result)
+
+
+### Input Data
+# 2
+# 3 4
+# 1 3 3 2 2 1 4 1 0 6 4 7
+# 4 4
+# 1 3 1 5 2 2 4 1 5 0 2 3 0 6 1 2
