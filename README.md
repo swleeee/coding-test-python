@@ -28,7 +28,9 @@
   - DFS/BFS(21.12.02 ~ 12.23 / 21.12.14 ~ 12.23)
   - sort(21.12.24)
   - binary_search(21.12.25 ~ 12.29)
-  - Dynamic Programming(21.12.30 ~ )
+  - Dynamic Programming(21.12.30 ~ 22.01.06)
+  - shortest path(22.01.10 ~ 22.01.01)
+  - graph(22.01.13 ~ )
 
 - 2021.11.21
 
@@ -39,3 +41,5 @@
   - DFS/BFS(21.12.14 ~ 12.23)
   - sort(21.12.24 ~ 12.25)
   - binary_search(21.12.27 ~ 12.30)
+  - Dynamic Programming(22.01.01 ~ 22.01.08)
+  - dyjkstra(22.01.10 ~ 22.01.01 ~ 22.01.15)
