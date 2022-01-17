@@ -30,7 +30,7 @@
   - binary_search(21.12.25 ~ 12.29)
   - Dynamic Programming(21.12.30 ~ 22.01.06)
   - shortest path(22.01.10 ~ 22.01.01)
-  - graph(22.01.13 ~ )
+  - graph(22.01.13 ~ 22.01.17)
 
 - 2021.11.21
 
@@ -42,4 +42,5 @@
   - sort(21.12.24 ~ 12.25)
   - binary_search(21.12.27 ~ 12.30)
   - Dynamic Programming(22.01.01 ~ 22.01.08)
-  - dyjkstra(22.01.10 ~ 22.01.01 ~ 22.01.15)
+  - dyjkstra(22.01.10 ~ 22.01.15)
+  - Topological Sorting (22.01.17 ~)
