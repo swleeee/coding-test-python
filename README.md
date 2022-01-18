@@ -43,4 +43,6 @@
   - binary_search(21.12.27 ~ 12.30)
   - Dynamic Programming(22.01.01 ~ 22.01.08)
   - dyjkstra(22.01.10 ~ 22.01.15)
-  - Topological Sorting (22.01.17 ~)
+  - Topological Sorting (22.01.17)
+
+  - 복습(22.01.18~)
