@@ -21,7 +21,7 @@
 
 - 2021.11.17 ~
 
-  1. This is coding test for employment
+  2. This is coding test for employment
 
   - greedy(21.11.17 ~ 11.20)
   - implementation(21.11.21 ~ 12.02)
@@ -34,7 +34,7 @@
 
 - 2021.11.21
 
-  1. Baekjoon
+  3. Baekjoon
 
   - greedy(21.11.21 ~ 11.24)
   - implementation(21.11.25 ~ 12.02)
@@ -46,3 +46,9 @@
   - Topological Sorting (22.01.17)
 
   - 복습(22.01.18~)
+
+- 2022.01.19 ~
+
+  4. 프로그래머스(1, 2단계 위주로 풀기)
+
+  - greedy(22.01.19 ~ 22.01.23)
